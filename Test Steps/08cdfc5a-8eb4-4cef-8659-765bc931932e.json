@@ -1,7 +1,7 @@
 {
     "steps": [
         "step 1: Navigate to Page_home",
-        "step 2: At Page home, click on hyperlink iphone 15 > navigate to Page product/*",
+        "step 2: At Page home, click on hyperlink new > navigate to Page product/*",
         "step 3: At Page product/*, click on label object",
         "step 4: At Page product/*, click on label object",
         "step 5: At Page product/*, click on button buy",
