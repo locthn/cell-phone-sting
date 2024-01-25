@@ -1,6 +1,6 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -12,7 +12,7 @@ def setup() {
 
 'Step 1: Navigate to Page_home'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'Step 2: At Page home, click on hyperlink iphone 15 > navigate to Page product/*'
 
@@ -30,13 +30,9 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_object_1'))
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
 
-'Step 6: At Page product/*, click on hyperlink place an order > navigate to Page cart'
+'Step 6: Add visual checkpoint at Page_product/*'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/hyperlink_place_an_order'))
-
-'Step 7: Add visual checkpoint at Page_cart'
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Order Placement for Iphone15_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Product Purchase on page Product_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

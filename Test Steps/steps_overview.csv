@@ -1,33 +1,44 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Successful Order Placement for Iphone15,Navigate to the home page and select the Iphone15 product. Add the item to the cart and proceed to the checkout page. Verify the contents of the cart.,"step 1: Navigate to Page_home
+0,Verify Product Purchase on page Product,Navigate to the home page and select the desired product. Proceed to purchase the product and verify the product page.,"step 1: Navigate to Page_home
 step 2: At Page home, click on hyperlink iphone 15 > navigate to Page product/*
 step 3: At Page product/*, click on label object
 step 4: At Page product/*, click on label object
 step 5: At Page product/*, click on button buy
-step 6: At Page product/*, click on hyperlink place an order > navigate to Page cart
-step 7: Add visual checkpoint at Page_cart",High
-1,Verify Successful Order Placement and Completion for Iphone15,Navigate to the home page and select the Iphone15 product. Add the item to the cart and proceed to the checkout page. Enter the shipping information and complete the payment process. Verify the successful completion of the order.,"step 1: Navigate to Page_home
-step 2: At Page home, click on hyperlink iphone 15 > navigate to Page product/*
+step 6: Add visual checkpoint at Page_product/*",High
+1,Verify Order Completion on page Thank You,"Navigate to the home page and select the desired product. Proceed to purchase the product, enter shipping details, and complete the order. Verify the thank you page after the order is completed.","step 1: Navigate to Page_home
+step 2: At Page home, click on button object
+step 3: At Page home, click on label object
+step 4: At Page home, click on label object
+step 5: At Page home, click on button buy
+step 6: At Page home, click on hyperlink place an order > navigate to Page cart
+step 7: At Page cart, click on button proceed to checkout > navigate to Page checkout/info
+step 8: At Page checkout/info, hover on div object
+step 9: At Page checkout/info, click on input email
+step 10: At Page checkout/info, input on input email
+step 11: At Page checkout/info, click on main object
+step 12: At Page checkout/info, click on button continue to shipping > navigate to Page checkout/shipping-address
+step 13: At Page checkout/shipping-address, hover on div object
+step 14: At Page checkout/shipping-address, click on input shipping address first name
+step 15: At Page checkout/shipping-address, input on input shipping address first name
+step 16: At Page checkout/shipping-address, input on input shipping address last name
+step 17: At Page checkout/shipping-address, input on input shipping address address line 1
+step 18: At Page checkout/shipping-address, input on input shipping address zip
+step 19: At Page checkout/shipping-address, input on input shipping address city
+step 20: At Page checkout/shipping-address, input on input shipping address state
+step 21: At Page checkout/shipping-address, input on input shipping address phone
+step 22: At Page checkout/shipping-address, click on button continue to payment > navigate to Page checkout/payment
+step 23: At Page checkout/payment, click on button complete order > navigate to Page thank-you/*
+step 24: Add visual checkpoint at Page_thank-you/*",Trivial
+2,Verify Shipping Address on page Checkout shipping Address,Navigate to the home page and select the desired product. Proceed to purchase the product and enter shipping details. Verify the shipping address page.,"step 1: Navigate to Page_home
+step 2: At Page home, click on hyperlink new > navigate to Page product/*
 step 3: At Page product/*, click on label object
 step 4: At Page product/*, click on label object
 step 5: At Page product/*, click on button buy
 step 6: At Page product/*, click on hyperlink place an order > navigate to Page cart
-step 7: Add visual checkpoint at Page_cart
-step 8: At Page cart, click on button proceed to checkout > navigate to Page checkout/info
-step 9: At Page checkout/info, hover on div object
-step 10: At Page checkout/info, click on input email
-step 11: At Page checkout/info, input on input email
-step 12: At Page checkout/info, click on main object
-step 13: At Page checkout/info, click on button continue to shipping > navigate to Page checkout/shipping-address
-step 14: At Page checkout/shipping-address, hover on div object
-step 15: At Page checkout/shipping-address, click on input shipping address first name
-step 16: At Page checkout/shipping-address, input on input shipping address first name
-step 17: At Page checkout/shipping-address, input on input shipping address last name
-step 18: At Page checkout/shipping-address, input on input shipping address address line 1
-step 19: At Page checkout/shipping-address, input on input shipping address zip
-step 20: At Page checkout/shipping-address, input on input shipping address city
-step 21: At Page checkout/shipping-address, input on input shipping address state
-step 22: At Page checkout/shipping-address, input on input shipping address phone
-step 23: At Page checkout/shipping-address, click on button continue to payment > navigate to Page checkout/payment
-step 24: At Page checkout/payment, click on button complete order > navigate to Page thank-you/*
-step 25: Add visual checkpoint at Page_thank-you/*",Trivial
+step 7: At Page cart, click on button proceed to checkout > navigate to Page checkout/info
+step 8: At Page checkout/info, hover on div object
+step 9: At Page checkout/info, click on input email
+step 10: At Page checkout/info, input on input email
+step 11: At Page checkout/info, click on main object
+step 12: At Page checkout/info, click on button continue to shipping > navigate to Page checkout/shipping-address
+step 13: Add visual checkpoint at Page_checkout/shipping-address",Trivial
