@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Successful Order Placement from Homepage,"Navigate to the home page and proceed with the order placement process by adding items to the cart, entering shipping information, and completing the payment. Verify the successful completion of the order.","step 1: Navigate to Page_home
+0,Verify Successful Order Placement from Home Page,Navigate to the home page and proceed to place an order. Enter shipping details and complete the payment process. Verify the order completion on the thank you page.,"step 1: Navigate to Page_home
 step 2: At Page home, click on button object
 step 3: At Page home, click on label object
 step 4: At Page home, click on label object
@@ -23,7 +23,7 @@ step 21: At Page checkout/shipping-address, input on input shipping address phon
 step 22: At Page checkout/shipping-address, click on button continue to payment > navigate to Page checkout/payment
 step 23: At Page checkout/payment, click on button complete order > navigate to Page thank-you/*
 step 24: Add visual checkpoint at Page_thank-you/*",High
-1,Verify Payment Process for i Phone15 Purchase,Navigate to the home page and select the iPhone 15 product. Proceed with the order placement process by entering shipping information and completing the payment. Verify the payment process on the checkout page.,"step 1: Navigate to Page_home
+1,Verify Checkout Process for Iphone15 Purchase,"Navigate to the home page and select the iPhone 15 product. Proceed to checkout, enter shipping details, and complete the payment process. Verify the payment section on the checkout page.","step 1: Navigate to Page_home
 step 2: At Page home, click on hyperlink iphone 15 > navigate to Page product/*
 step 3: At Page product/*, click on label object
 step 4: At Page product/*, click on label object
@@ -46,7 +46,7 @@ step 20: At Page checkout/shipping-address, input on input shipping address stat
 step 21: At Page checkout/shipping-address, input on input shipping address phone
 step 22: At Page checkout/shipping-address, click on button continue to payment > navigate to Page checkout/payment
 step 23: Add visual checkpoint at Page_checkout/payment",Trivial
-2,Verify Product Details for New Product,Navigate to the home page and verify the details of the new product by adding it to the cart.,"step 1: Navigate to Page_home
+2,Verify Product Purchase of New Item,Navigate to the home page and purchase a new item. Verify the product page after the purchase.,"step 1: Navigate to Page_home
 step 2: At Page home, click on hyperlink new > navigate to Page product/*
 step 3: At Page product/*, click on label object
 step 4: At Page product/*, click on label object

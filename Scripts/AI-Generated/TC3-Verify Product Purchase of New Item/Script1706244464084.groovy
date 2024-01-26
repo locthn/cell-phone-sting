@@ -32,7 +32,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
 
 'Step 6: Add visual checkpoint at Page_product/*'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Product Details for New Product_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Product Purchase of New Item_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

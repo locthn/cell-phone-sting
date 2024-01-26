@@ -14,25 +14,25 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'Step 2: At Page home, click on button object'
+'Step 2: At Page home, click on hyperlink iphone 15 > navigate to Page product/*'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_object'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_iphone_15'))
 
-'Step 3: At Page home, click on label object'
+'Step 3: At Page product/*, click on label object'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/label_object'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_object'))
 
-'Step 4: At Page home, click on label object'
+'Step 4: At Page product/*, click on label object'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/label_object_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_object_1'))
 
-'Step 5: At Page home, click on button buy'
+'Step 5: At Page product/*, click on button buy'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_buy'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
 
-'Step 6: At Page home, click on hyperlink place an order > navigate to Page cart'
+'Step 6: At Page product/*, click on hyperlink place an order > navigate to Page cart'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_place_an_order'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/hyperlink_place_an_order'))
 
 'Step 7: At Page cart, click on button proceed to checkout > navigate to Page checkout/info'
 
@@ -98,13 +98,9 @@ WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping-address/input_
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping-address/button_continue_to_payment'))
 
-'Step 23: At Page checkout/payment, click on button complete order > navigate to Page thank-you/*'
+'Step 23: Add visual checkpoint at Page_checkout/payment'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_complete_order'))
-
-'Step 24: Add visual checkpoint at Page_thank-you/*'
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Order Placement from Homepage_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Checkout Process for Iphone15 Purchase_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
