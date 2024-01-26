@@ -1,16 +1,16 @@
 {
     "steps": [
         "step 1: Navigate to Page_home",
-        "step 2: At Page home, click on hyperlink iphone 15 > navigate to Page product/*",
-        "step 3: At Page product/*, click on label object",
-        "step 4: At Page product/*, click on label object",
-        "step 5: At Page product/*, click on button buy",
-        "step 6: At Page product/*, click on hyperlink place an order > navigate to Page cart",
+        "step 2: At Page home, click on svg object",
+        "step 3: At Page home, click on label object",
+        "step 4: At Page home, click on label object",
+        "step 5: At Page home, click on button buy",
+        "step 6: At Page home, click on hyperlink place an order > navigate to Page cart",
         "step 7: At Page cart, click on button proceed to checkout > navigate to Page checkout/info",
         "step 8: At Page checkout/info, hover on div object",
         "step 9: At Page checkout/info, click on input email",
         "step 10: At Page checkout/info, input on input email",
-        "step 11: At Page checkout/info, click on main object",
+        "step 11: At Page checkout/info, click on div object",
         "step 12: At Page checkout/info, click on button continue to shipping > navigate to Page checkout/shipping-address",
         "step 13: At Page checkout/shipping-address, hover on div object",
         "step 14: At Page checkout/shipping-address, click on input shipping address first name",
@@ -22,6 +22,7 @@
         "step 20: At Page checkout/shipping-address, input on input shipping address state",
         "step 21: At Page checkout/shipping-address, input on input shipping address phone",
         "step 22: At Page checkout/shipping-address, click on button continue to payment > navigate to Page checkout/payment",
-        "step 23: Add visual checkpoint at Page_checkout/payment"
+        "step 23: At Page checkout/payment, click on button complete order > navigate to Page thank-you/*",
+        "step 24: Add visual checkpoint at Page_thank-you/*"
     ]
 }

@@ -1,6 +1,6 @@
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -14,9 +14,9 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'Step 2: At Page home, click on button object'
+'Step 2: At Page home, click on svg object'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_object'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/svg_object'))
 
 'Step 3: At Page home, click on label object'
 
@@ -50,9 +50,9 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/input_email'
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_info/input_email'), input_email)
 
-'Step 11: At Page checkout/info, click on main object'
+'Step 11: At Page checkout/info, click on div object'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/main_object'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/div_object_1'))
 
 'Step 12: At Page checkout/info, click on button continue to shipping > navigate to Page checkout/shipping-address'
 
@@ -104,7 +104,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_co
 
 'Step 24: Add visual checkpoint at Page_thank-you/*'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Order Placement from Home Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Order Completion and Thank You Page Displayed_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

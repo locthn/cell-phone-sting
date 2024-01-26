@@ -1,6 +1,6 @@
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -32,7 +32,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
 
 'Step 6: Add visual checkpoint at Page_product/*'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Product Purchase of New Item_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Purchase of Product from Page Product_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
